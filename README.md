@@ -8,6 +8,6 @@
 ## Skills:
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,azure,bash,github,html,css,python,latex,mysql,r,vscode,linux" />
+    <img src="https://skillicons.dev/icons?i=git,azure,bash,html,css,python,latex,mysql,r,vscode,linux" />
   </a>
 </p>
