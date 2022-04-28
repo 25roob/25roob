@@ -1,0 +1,56 @@
+ir a 
+C:\Users\username\AppData\Roaming\Code\User
+
+y reemplazar el archivo settings.json por el que esta en este escritorio
+
+Contenido de settings.json:
+
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.linkedEditing": true,
+    "editor.inlineSuggest.enabled": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.colorTheme": "Sublime Material Theme - Dark",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    }
+}
+
+escribir las siguientes lineas en la linea de comandos de vscode de windows
+
+code --install-extension formulahendry.auto-rename-tag
+code --install-extension GitHub.copilot
+code --install-extension hediet.vscode-drawio
+code --install-extension jprestidge.theme-material-theme
+code --install-extension LaurentTreguier.vscode-simple-icons
+code --install-extension MS-CEINTL.vscode-language-pack-es
+code --install-extension ms-python.python
+code --install-extension ms-python.vscode-pylance
+code --install-extension ms-toolsai.jupyter
+code --install-extension ms-toolsai.jupyter-keymap
+code --install-extension ms-toolsai.jupyter-renderers
+code --install-extension ms-vscode-remote.remote-wsl
+code --install-extension PKief.material-icon-theme
+code --install-extension ritwickdey.LiveServer
+code --install-extension Shan.code-settings-sync
+
+para wsl:
+
+code --install-extension batisteo.vscode-django
+code --install-extension christian-kohler.path-intellisense
+code --install-extension esbenp.prettier-vscode
+code --install-extension jeff-hykin.polacode-2019
+code --install-extension JuanBlanco.solidity
+code --install-extension matklad.rust-analyzer
+code --install-extension ms-azuretools.vscode-docker
+code --install-extension MS-CEINTL.vscode-language-pack-es
+code --install-extension ms-python.python
+code --install-extension ms-python.vscode-pylance
+code --install-extension ms-toolsai.jupyter
+code --install-extension ms-toolsai.jupyter-keymap
+code --install-extension ms-toolsai.jupyter-renderers
+code --install-extension naumovs.color-highlight
+code --install-extension ritwickdey.LiveServer

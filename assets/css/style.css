@@ -383,3 +383,14 @@ body {
     background-color: #00ab9f; }
 
 /*# sourceMappingURL=style.css.map */
+
+body > div > div > div > div.col-md-4.left-co > div > div:nth-child(4) > div.detail > a:nth-child(1) {
+  color: white;
+}
+
+body > div > div > div > div.col-md-4.left-co > div > div:nth-child(4) > div.detail > a:nth-child(3) {
+  color: white;
+}
+
+
+
