@@ -225,7 +225,7 @@ body {
       padding: 0px;
       padding-right: 10px; } }
   .profile-box .left-side {
-    background-color: #00ab9f;
+    background-color: #00948a;
     color: #FFF;
     padding: 40px 20px; }
     .profile-box .left-side .profile-info {
@@ -393,9 +393,9 @@ body > div > div > div > div.col-md-4.left-co > div > div:nth-child(4) > div.det
 }
 
 li > a {
-  color: rgb(199, 252, 236)
+  color: rgb(210, 250, 238);
 }
 
 a.media-class {
-  color: white;
+  color: rgb(210, 250, 238);
 }
