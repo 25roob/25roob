@@ -392,5 +392,10 @@ body > div > div > div > div.col-md-4.left-co > div > div:nth-child(4) > div.det
   color: white;
 }
 
+li > a {
+  color: rgb(199, 252, 236)
+}
 
-
+a.media-class {
+  color: white;
+}
