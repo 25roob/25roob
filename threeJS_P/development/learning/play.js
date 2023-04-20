@@ -1,5 +1,9 @@
 import * as THREE from '../../modules/three.module.js';
 
+main();
+
+function main() {
+
 // init
 
 const camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 0.01, 10 );
@@ -27,4 +31,5 @@ function animation( time ) {
 
 	renderer.render( scene, camera );
 
+}
 }
