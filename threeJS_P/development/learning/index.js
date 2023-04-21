@@ -63,7 +63,7 @@ function main() {
     const textureLoader = new THREE.TextureLoader();
 
     const cubeMaterial = new THREE.MeshPhongMaterial({
-        color: 'gold'
+        color: 'purple'
     });
 
     // const sphereMaterial = new THREE.MeshLambertMaterial({
@@ -95,7 +95,7 @@ function main() {
     sphereNormalMap.wrapS = THREE.RepeatWrapping;
     sphereNormalMap.wrapT = THREE.RepeatWrapping;
     const sphereMaterial = new THREE.MeshStandardMaterial({
-        color: 'tan',
+        color: 'silver',
         normalMap: sphereNormalMap
     });
 
@@ -136,13 +136,13 @@ function main() {
             camera.updateProjectionMatrix();
         }
 
-        cube.rotation.x += 0.01;
-        cube.rotation.y += 0.01;
+        cube.rotation.x += 0.00;
+        cube.rotation.y += 0.02;
         cube.rotation.z += 0.00;
 
         sphere.rotation.x += 0.00;
-        sphere.rotation.y += 0.01;
-        sphere.rotation.z += 0.01;
+        sphere.rotation.y += 0.00;
+        sphere.rotation.z += 0.02;
 
         light.position.x = 20*Math.cos(time);
         light.position.y = 20*Math.sin(time);
