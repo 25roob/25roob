@@ -63,7 +63,7 @@ function main() {
     const textureLoader = new THREE.TextureLoader();
 
     const cubeMaterial = new THREE.MeshPhongMaterial({
-        color: 'blue'
+        color: 'gold'
     });
 
     // const sphereMaterial = new THREE.MeshLambertMaterial({
@@ -138,9 +138,9 @@ function main() {
 
         cube.rotation.x += 0.01;
         cube.rotation.y += 0.01;
-        cube.rotation.z += 0.01;
+        cube.rotation.z += 0.00;
 
-        sphere.rotation.x += 0.01;
+        sphere.rotation.x += 0.00;
         sphere.rotation.y += 0.01;
         sphere.rotation.z += 0.01;
 

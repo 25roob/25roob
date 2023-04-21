@@ -5,7 +5,7 @@ main();
 function main() {
 
 // init
-
+const canvas = document.querySelector("#c");
 const camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 0.01, 10 );
 camera.position.z = 1;
 
